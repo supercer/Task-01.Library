@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _EPAM_Library.Entites
 {
-    public class BookDTO
+    public class BookDTO : LibraryObjectDTO
     {
         public int Id { get; set; }
 

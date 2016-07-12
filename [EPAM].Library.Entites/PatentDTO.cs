@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _EPAM_Library.Entites
 {
-   public class PatentDTO
+   public class PatentDTO : LibraryObjectDTO
     {
         public int Id { get; set; }
 

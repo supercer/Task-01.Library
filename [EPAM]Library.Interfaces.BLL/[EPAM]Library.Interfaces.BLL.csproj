@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A54A020B-1E7F-4F57-8E31-B31623855349}</ProjectGuid>
+    <ProjectGuid>{6D0BD83E-4F59-4C8F-A233-24A97FFC8F64}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_EPAM_.Library.Entites</RootNamespace>
-    <AssemblyName>[EPAM].Library.Entites</AssemblyName>
+    <RootNamespace>_EPAM_Library.Interfaces.BLL</RootNamespace>
+    <AssemblyName>[EPAM]Library.Interfaces.BLL</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,15 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Author.cs" />
-    <Compile Include="AuthorBookDTO.cs" />
-    <Compile Include="AuthorPatentDTO.cs" />
-    <Compile Include="BookDTO.cs" />
-    <Compile Include="LibraryObjectDTO.cs" />
-    <Compile Include="NewsPaperDTO.cs" />
-    <Compile Include="NewsPaperNewsPaperPublishingDTO.cs" />
-    <Compile Include="NewsPaperPublishingDTO.cs" />
-    <Compile Include="PatentDTO.cs" />
+    <Compile Include="ILibraryBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

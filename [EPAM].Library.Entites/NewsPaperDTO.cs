@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _EPAM_Library.Entites
 {
-   public class NewsPaperDTO
+   public class NewsPaperDTO : LibraryObjectDTO
     {
         public int Id;
 
@@ -15,9 +15,6 @@ namespace _EPAM_Library.Entites
         public int Publisher { get; set; }
 
         public string PlaceOfPublication { get; set; }
-
-        public int NewspaperPublishingId { get; set; }
-
 
 
     }

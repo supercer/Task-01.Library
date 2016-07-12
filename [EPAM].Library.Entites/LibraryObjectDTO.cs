@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Task_01.Library
+namespace _EPAM_Library.Entites
 {
-    public class Class1
+    public abstract class LibraryObjectDTO
     {
     }
 }

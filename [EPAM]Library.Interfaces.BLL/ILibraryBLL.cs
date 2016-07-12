@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _EPAM_Library.Entites
+namespace _EPAM_Library.Interfaces.BLL
 {
-    public class NewspaperPublishing
+    public class ILibraryBLL
     {
-
     }
 }
